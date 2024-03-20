@@ -14,6 +14,7 @@
 		49707A852BAB9332003A6342 /* ChefDeliveryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49707A842BAB9332003A6342 /* ChefDeliveryTests.swift */; };
 		49707A8F2BAB9332003A6342 /* ChefDeliveryUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49707A8E2BAB9332003A6342 /* ChefDeliveryUITests.swift */; };
 		49707A912BAB9332003A6342 /* ChefDeliveryUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49707A902BAB9332003A6342 /* ChefDeliveryUITestsLaunchTests.swift */; };
+		49707AA02BAB964C003A6342 /* NavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49707A9F2BAB964C003A6342 /* NavigationBar.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		49707A8A2BAB9332003A6342 /* ChefDeliveryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChefDeliveryUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		49707A8E2BAB9332003A6342 /* ChefDeliveryUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChefDeliveryUITests.swift; sourceTree = "<group>"; };
 		49707A902BAB9332003A6342 /* ChefDeliveryUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChefDeliveryUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		49707A9F2BAB964C003A6342 /* NavigationBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationBar.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,8 +96,8 @@
 		49707A722BAB932F003A6342 /* ChefDelivery */ = {
 			isa = PBXGroup;
 			children = (
-				49707A732BAB932F003A6342 /* ChefDeliveryApp.swift */,
-				49707A752BAB932F003A6342 /* ContentView.swift */,
+				49707A9E2BAB9623003A6342 /* App */,
+				49707A9D2BAB9611003A6342 /* NavigationBar */,
 				49707A772BAB9332003A6342 /* Assets.xcassets */,
 				49707A792BAB9332003A6342 /* Preview Content */,
 			);
@@ -125,6 +127,23 @@
 				49707A902BAB9332003A6342 /* ChefDeliveryUITestsLaunchTests.swift */,
 			);
 			path = ChefDeliveryUITests;
+			sourceTree = "<group>";
+		};
+		49707A9D2BAB9611003A6342 /* NavigationBar */ = {
+			isa = PBXGroup;
+			children = (
+				49707A9F2BAB964C003A6342 /* NavigationBar.swift */,
+			);
+			path = NavigationBar;
+			sourceTree = "<group>";
+		};
+		49707A9E2BAB9623003A6342 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				49707A732BAB932F003A6342 /* ChefDeliveryApp.swift */,
+				49707A752BAB932F003A6342 /* ContentView.swift */,
+			);
+			path = App;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,6 +278,7 @@
 			files = (
 				49707A762BAB932F003A6342 /* ContentView.swift in Sources */,
 				49707A742BAB932F003A6342 /* ChefDeliveryApp.swift in Sources */,
+				49707AA02BAB964C003A6342 /* NavigationBar.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

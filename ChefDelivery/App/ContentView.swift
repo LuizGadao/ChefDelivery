@@ -13,7 +13,6 @@ struct ContentView: View {
             Text("Hello World!!!")
             Text("Luiz Carlos")
         }
-        
     }
 }
 
