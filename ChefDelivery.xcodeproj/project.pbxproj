@@ -16,6 +16,14 @@
 		49707A912BAB9332003A6342 /* ChefDeliveryUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49707A902BAB9332003A6342 /* ChefDeliveryUITestsLaunchTests.swift */; };
 		49707AA02BAB964C003A6342 /* NavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49707A9F2BAB964C003A6342 /* NavigationBar.swift */; };
 		49707AA32BAB9C4D003A6342 /* OrderTypeGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49707AA22BAB9C4D003A6342 /* OrderTypeGridView.swift */; };
+		49707AA62BAB9F45003A6342 /* OrderType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49707AA52BAB9F45003A6342 /* OrderType.swift */; };
+		49707AA82BAB9F9C003A6342 /* DataSourceMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49707AA72BAB9F9C003A6342 /* DataSourceMock.swift */; };
+		49707AAA2BABA1B5003A6342 /* OrderTypeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49707AA92BABA1B5003A6342 /* OrderTypeView.swift */; };
+		49707AAD2BAC6F4E003A6342 /* CorroselItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49707AAC2BAC6F4E003A6342 /* CorroselItemView.swift */; };
+		49707AAF2BAC7038003A6342 /* CarroselView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49707AAE2BAC7038003A6342 /* CarroselView.swift */; };
+		49707AB12BAC7488003A6342 /* TabViewExperiment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49707AB02BAC7488003A6342 /* TabViewExperiment.swift */; };
+		49707AB42BAC8155003A6342 /* StoreItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49707AB32BAC8155003A6342 /* StoreItemView.swift */; };
+		49707AB62BAC85B8003A6342 /* StoreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49707AB52BAC85B8003A6342 /* StoreView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +56,14 @@
 		49707A902BAB9332003A6342 /* ChefDeliveryUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChefDeliveryUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		49707A9F2BAB964C003A6342 /* NavigationBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationBar.swift; sourceTree = "<group>"; };
 		49707AA22BAB9C4D003A6342 /* OrderTypeGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderTypeGridView.swift; sourceTree = "<group>"; };
+		49707AA52BAB9F45003A6342 /* OrderType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderType.swift; sourceTree = "<group>"; };
+		49707AA72BAB9F9C003A6342 /* DataSourceMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataSourceMock.swift; sourceTree = "<group>"; };
+		49707AA92BABA1B5003A6342 /* OrderTypeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderTypeView.swift; sourceTree = "<group>"; };
+		49707AAC2BAC6F4E003A6342 /* CorroselItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CorroselItemView.swift; sourceTree = "<group>"; };
+		49707AAE2BAC7038003A6342 /* CarroselView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarroselView.swift; sourceTree = "<group>"; };
+		49707AB02BAC7488003A6342 /* TabViewExperiment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabViewExperiment.swift; sourceTree = "<group>"; };
+		49707AB32BAC8155003A6342 /* StoreItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreItemView.swift; sourceTree = "<group>"; };
+		49707AB52BAC85B8003A6342 /* StoreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,8 +115,11 @@
 			isa = PBXGroup;
 			children = (
 				49707A9E2BAB9623003A6342 /* App */,
+				49707AA42BAB9F2B003A6342 /* Model */,
 				49707A9D2BAB9611003A6342 /* NavigationBar */,
 				49707AA12BAB9C21003A6342 /* GridView */,
+				49707AB22BAC8131003A6342 /* StoresView */,
+				49707AAB2BAC6F26003A6342 /* CorroselView */,
 				49707A772BAB9332003A6342 /* Assets.xcassets */,
 				49707A792BAB9332003A6342 /* Preview Content */,
 			);
@@ -153,8 +172,37 @@
 			isa = PBXGroup;
 			children = (
 				49707AA22BAB9C4D003A6342 /* OrderTypeGridView.swift */,
+				49707AA92BABA1B5003A6342 /* OrderTypeView.swift */,
 			);
 			path = GridView;
+			sourceTree = "<group>";
+		};
+		49707AA42BAB9F2B003A6342 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				49707AA52BAB9F45003A6342 /* OrderType.swift */,
+				49707AA72BAB9F9C003A6342 /* DataSourceMock.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		49707AAB2BAC6F26003A6342 /* CorroselView */ = {
+			isa = PBXGroup;
+			children = (
+				49707AAC2BAC6F4E003A6342 /* CorroselItemView.swift */,
+				49707AAE2BAC7038003A6342 /* CarroselView.swift */,
+				49707AB02BAC7488003A6342 /* TabViewExperiment.swift */,
+			);
+			path = CorroselView;
+			sourceTree = "<group>";
+		};
+		49707AB22BAC8131003A6342 /* StoresView */ = {
+			isa = PBXGroup;
+			children = (
+				49707AB32BAC8155003A6342 /* StoreItemView.swift */,
+				49707AB52BAC85B8003A6342 /* StoreView.swift */,
+			);
+			path = StoresView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -287,9 +335,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				49707AA62BAB9F45003A6342 /* OrderType.swift in Sources */,
+				49707AAF2BAC7038003A6342 /* CarroselView.swift in Sources */,
+				49707AB42BAC8155003A6342 /* StoreItemView.swift in Sources */,
 				49707A762BAB932F003A6342 /* ContentView.swift in Sources */,
+				49707AB12BAC7488003A6342 /* TabViewExperiment.swift in Sources */,
+				49707AA82BAB9F9C003A6342 /* DataSourceMock.swift in Sources */,
+				49707AAA2BABA1B5003A6342 /* OrderTypeView.swift in Sources */,
+				49707AAD2BAC6F4E003A6342 /* CorroselItemView.swift in Sources */,
 				49707AA32BAB9C4D003A6342 /* OrderTypeGridView.swift in Sources */,
 				49707A742BAB932F003A6342 /* ChefDeliveryApp.swift in Sources */,
+				49707AB62BAC85B8003A6342 /* StoreView.swift in Sources */,
 				49707AA02BAB964C003A6342 /* NavigationBar.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
