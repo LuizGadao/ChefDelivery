@@ -26,6 +26,7 @@
 		49707AB62BAC85B8003A6342 /* StoreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49707AB52BAC85B8003A6342 /* StoreView.swift */; };
 		49707AEC2BB22DA9003A6342 /* StoreDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49707AEB2BB22DA9003A6342 /* StoreDetailView.swift */; };
 		49707AEE2BB232CD003A6342 /* StoreType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49707AED2BB232CD003A6342 /* StoreType.swift */; };
+		49707AF12BB23D23003A6342 /* Double+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49707AF02BB23D23003A6342 /* Double+.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -68,6 +69,7 @@
 		49707AB52BAC85B8003A6342 /* StoreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreView.swift; sourceTree = "<group>"; };
 		49707AEB2BB22DA9003A6342 /* StoreDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreDetailView.swift; sourceTree = "<group>"; };
 		49707AED2BB232CD003A6342 /* StoreType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreType.swift; sourceTree = "<group>"; };
+		49707AF02BB23D23003A6342 /* Double+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Double+.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,6 +120,7 @@
 		49707A722BAB932F003A6342 /* ChefDelivery */ = {
 			isa = PBXGroup;
 			children = (
+				49707AEF2BB23D0C003A6342 /* Extension */,
 				49707A9E2BAB9623003A6342 /* App */,
 				49707AA42BAB9F2B003A6342 /* Model */,
 				49707A9D2BAB9611003A6342 /* NavigationBar */,
@@ -209,6 +212,14 @@
 				49707AEB2BB22DA9003A6342 /* StoreDetailView.swift */,
 			);
 			path = StoresView;
+			sourceTree = "<group>";
+		};
+		49707AEF2BB23D0C003A6342 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				49707AF02BB23D23003A6342 /* Double+.swift */,
+			);
+			path = Extension;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -345,6 +356,7 @@
 				49707AAF2BAC7038003A6342 /* CarroselView.swift in Sources */,
 				49707AB42BAC8155003A6342 /* StoreItemView.swift in Sources */,
 				49707A762BAB932F003A6342 /* ContentView.swift in Sources */,
+				49707AF12BB23D23003A6342 /* Double+.swift in Sources */,
 				49707AB12BAC7488003A6342 /* TabViewExperiment.swift in Sources */,
 				49707AA82BAB9F9C003A6342 /* DataSourceMock.swift in Sources */,
 				49707AAA2BABA1B5003A6342 /* OrderTypeView.swift in Sources */,

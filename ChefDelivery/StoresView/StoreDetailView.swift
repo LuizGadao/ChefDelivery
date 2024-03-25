@@ -53,7 +53,7 @@ struct StoreDetailView: View {
                         VStack(alignment:.leading, spacing: 8){
                             Text(product.name).bold()
                             Text(product.description).foregroundColor(.black.opacity(0.5))
-                            Text("\(product.price)")
+                            Text(product.formattedPrice)
                         }
                         
                         Spacer()
