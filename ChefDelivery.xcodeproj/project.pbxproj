@@ -24,6 +24,8 @@
 		49707AB12BAC7488003A6342 /* TabViewExperiment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49707AB02BAC7488003A6342 /* TabViewExperiment.swift */; };
 		49707AB42BAC8155003A6342 /* StoreItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49707AB32BAC8155003A6342 /* StoreItemView.swift */; };
 		49707AB62BAC85B8003A6342 /* StoreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49707AB52BAC85B8003A6342 /* StoreView.swift */; };
+		49707AEC2BB22DA9003A6342 /* StoreDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49707AEB2BB22DA9003A6342 /* StoreDetailView.swift */; };
+		49707AEE2BB232CD003A6342 /* StoreType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49707AED2BB232CD003A6342 /* StoreType.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,6 +66,8 @@
 		49707AB02BAC7488003A6342 /* TabViewExperiment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabViewExperiment.swift; sourceTree = "<group>"; };
 		49707AB32BAC8155003A6342 /* StoreItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreItemView.swift; sourceTree = "<group>"; };
 		49707AB52BAC85B8003A6342 /* StoreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreView.swift; sourceTree = "<group>"; };
+		49707AEB2BB22DA9003A6342 /* StoreDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreDetailView.swift; sourceTree = "<group>"; };
+		49707AED2BB232CD003A6342 /* StoreType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreType.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -182,6 +186,7 @@
 			children = (
 				49707AA52BAB9F45003A6342 /* OrderType.swift */,
 				49707AA72BAB9F9C003A6342 /* DataSourceMock.swift */,
+				49707AED2BB232CD003A6342 /* StoreType.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -201,6 +206,7 @@
 			children = (
 				49707AB32BAC8155003A6342 /* StoreItemView.swift */,
 				49707AB52BAC85B8003A6342 /* StoreView.swift */,
+				49707AEB2BB22DA9003A6342 /* StoreDetailView.swift */,
 			);
 			path = StoresView;
 			sourceTree = "<group>";
@@ -343,8 +349,10 @@
 				49707AA82BAB9F9C003A6342 /* DataSourceMock.swift in Sources */,
 				49707AAA2BABA1B5003A6342 /* OrderTypeView.swift in Sources */,
 				49707AAD2BAC6F4E003A6342 /* CorroselItemView.swift in Sources */,
+				49707AEC2BB22DA9003A6342 /* StoreDetailView.swift in Sources */,
 				49707AA32BAB9C4D003A6342 /* OrderTypeGridView.swift in Sources */,
 				49707A742BAB932F003A6342 /* ChefDeliveryApp.swift in Sources */,
+				49707AEE2BB232CD003A6342 /* StoreType.swift in Sources */,
 				49707AB62BAC85B8003A6342 /* StoreView.swift in Sources */,
 				49707AA02BAB964C003A6342 /* NavigationBar.swift in Sources */,
 			);

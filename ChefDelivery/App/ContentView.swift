@@ -16,17 +16,19 @@ struct ContentView: View {
     ]
     
     var body: some View {
-        VStack{
-            NavigationBar()
-                .padding(.horizontal, 15)
-            
-            ScrollView(.vertical, showsIndicators: false) {
-                VStack(spacing: 20){
-                    OrderTypeGridView()
-                    CarroselView(orders: orders)
-                    StoreView(stores: storeMock).padding(EdgeInsets(NSDirectionalEdgeInsets(top: 0, leading: 20, bottom: 0, trailing: 20)))
-                }
+        NavigationView {
+            VStack{
+                NavigationBar()
+                    .padding(.horizontal, 15)
                 
+                ScrollView(.vertical, showsIndicators: false) {
+                    VStack(spacing: 20){
+                        OrderTypeGridView()
+                        CarroselView(orders: orders)
+                        StoreView(stores:storeMock).padding(EdgeInsets(NSDirectionalEdgeInsets(top: 0, leading: 20, bottom: 0, trailing: 20)))
+                    }
+                    
+                }
             }
         }
     }
